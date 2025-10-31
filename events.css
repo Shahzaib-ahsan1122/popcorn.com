@@ -1,0 +1,49 @@
+/* Styles go here */
+
+
+body {
+    font-family: Inter;
+}
+
+#events-list{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    list-style-type:none;
+}
+
+.eventCard {
+    border: 8px solid;
+    border-color: bisque;
+    border-radius: 8px;
+    background-color: beige;
+    box-shadow: black 4px 4px;
+    transition: transform 0.3s ease;
+    
+}
+
+.cardInfo {
+    padding:5px;
+    list-style-type: none;
+    font-size:20px
+}
+
+.infoHolder{
+    padding-left: 0px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+}
+
+@media (min-width: 768px) {
+    #events-list{
+        flex-direction:row;
+    }
+    .infoHolder {
+        flex-direction:row;
+    }
+}
+
+.eventCard:hover{
+    transform:scale(1.2);
+}
