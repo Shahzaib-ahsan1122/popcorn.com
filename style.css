@@ -66,7 +66,8 @@ p {
     height: 50px;
     padding: 0 30px 0 30px;
     border-radius: 12px;
-    box-shadow: 0px 3px 5px rgb(0, 0, 0);
+    box-shadow: 0px 3px 5px rgb(0, 0, 0),
+                0px -1px 5px rgb(0, 0, 0);
     border: none;
 }
 
@@ -78,7 +79,54 @@ p {
 
 .main{
     width: 100%;
-    background-color: #1ae969;
+    /* background-color: #1ae969; */
     height: 1000px;
+}
+
+.left-side{
+    width: 40%;
+    height: 1000px;
+}
+
+.left-side_picture{
+    /* background-color: #062bd3; */
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    /* max-width: 50%; */
+}
+
+.left-side_picture img{
+    max-width: 100%;
+    max-height: 200px;
+    /* object-fit: cover;      
+    object-position: center; */
+    
+}
+
+.left-side_reviews{
+    background-color: #e91abc;
+    height: 50%;
+}
+
+.right-side{
+    width: 40%;
+    height: 1000px;
+}
+
+.right-side_description{
+    background-color: #e91a1a;
+}
+
+.right-side_stream-website{
+    background-color: #c3e91a;
+}
+
+.right-side_stream-website_first{
+
+}
+
+.right-side_stream-website_second{
+
 }
 
