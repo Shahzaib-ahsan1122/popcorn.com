@@ -1,0 +1,1 @@
+print ("hello world here bwe are the hackers tryingt o hacka duck")
